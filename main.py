@@ -124,13 +124,14 @@ def main():
     input_image_path = "test_img//image1.png"  # 請替換為您的影像路徑
     ground_truth_path = "test_img//image1_groundtruth.png"  # 請替換為您的影像路徑
 
-    size_filter_values = [16, 25, 36]
+    size_filter_values = [20, 25, 30, 35, 40]
     offset_values = [1, 2, 3]
-    correlation_threshold_values = [0.8, 0.85, 0.9]
-    contrast_threshold_values = [30, 40, 50]
+    correlation_threshold_values = [0.75, 0.8, 0.85, 0.9]
+    contrast_threshold_values = [30, 40, 50, 60, 70]
 
     with open("results.txt", "w") as file:
-        file.write("Results\n\n")
+
+        file.flush()
         for size_filter in size_filter_values:
             for offset in offset_values:
                 for correlation_threshold in correlation_threshold_values:
@@ -158,6 +159,7 @@ def main():
                                 f"Parameters: size_filter={size_filter}, offset={offset}, correlation_threshold={correlation_threshold}, contrast_threshold={contrast_threshold}\n"
                             )
                             file.write(f"Accuracy: {accuracy:.4f}\n\n")
+                            file.flush()
                         else:
                             print(
                                 f"Skipping parameters due to None result: size_filter={size_filter}, offset={offset}, correlation_threshold={correlation_threshold}, contrast_threshold={contrast_threshold}"
@@ -166,6 +168,7 @@ def main():
                                 f"Parameters: size_filter={size_filter}, offset={offset}, correlation_threshold={correlation_threshold}, contrast_threshold={contrast_threshold}\n"
                             )
                             file.write("Accuracy: N/A\n\n")
+                            file.flush()
     print("Results saved to results.txt")
 
 

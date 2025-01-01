@@ -1,0 +1,6 @@
+Parameters: size_filter=16, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0365
+
+Parameters: size_filter=16, offset=1, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0372
+
