@@ -1,6 +1,600 @@
-Parameters: size_filter=16, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Parameters: size_filter=20, offset=1, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0367
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0452
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1023
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.1953
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0367
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0458
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1040
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.1968
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.2199
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.2234
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.2596
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.3469
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.4708
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9485
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9491
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9561
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9572
+
+Parameters: size_filter=20, offset=1, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9612
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0369
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0479
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1074
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2034
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0369
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0483
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1090
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2070
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.2642
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.2686
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.3111
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.3987
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5179
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9515
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9525
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9586
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9594
+
+Parameters: size_filter=20, offset=2, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9630
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0370
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0512
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1176
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2116
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.8, contrast_threshold=30
 Accuracy: 0.0365
 
-Parameters: size_filter=16, offset=1, correlation_threshold=0.8, contrast_threshold=40
-Accuracy: 0.0372
+Parameters: size_filter=20, offset=3, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0373
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0520
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1202
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2138
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.3180
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.3243
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.3642
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.4602
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5641
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9553
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9564
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9619
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9642
+
+Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9639
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0470
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1082
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.1932
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0472
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1089
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.1947
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.2686
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.2722
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.3061
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.3900
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.4922
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9388
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9388
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9419
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9458
+
+Parameters: size_filter=25, offset=1, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9484
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0544
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1173
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2018
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0546
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1180
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2031
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.3158
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.3199
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.3571
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.4404
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5395
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9411
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9411
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9454
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9476
+
+Parameters: size_filter=25, offset=2, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9506
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0559
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1221
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2162
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0401
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0562
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1240
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2179
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.3743
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.3784
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.4177
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.4998
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5863
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9448
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9448
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9489
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9515
+
+Parameters: size_filter=25, offset=3, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9537
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0545
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1143
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2157
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0546
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1144
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2157
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.3736
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.3745
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.4074
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.4909
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5856
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9271
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9271
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9308
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9348
+
+Parameters: size_filter=30, offset=1, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9381
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0578
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1235
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2192
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0579
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1237
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2192
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.4158
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.4169
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.4508
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.5313
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.6188
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9299
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9299
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9340
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9375
+
+Parameters: size_filter=30, offset=2, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9400
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0439
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0439
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0662
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1311
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2302
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0439
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0439
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0662
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1311
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2302
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.4693
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.4712
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.5055
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.5841
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.6667
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9315
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9315
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9347
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9390
+
+Parameters: size_filter=30, offset=3, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9410
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.75, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.75, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.75, contrast_threshold=50
+Accuracy: 0.0534
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.75, contrast_threshold=60
+Accuracy: 0.1098
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.75, contrast_threshold=70
+Accuracy: 0.2037
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.8, contrast_threshold=30
+Accuracy: 0.0364
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.8, contrast_threshold=40
+Accuracy: 0.0364
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.8, contrast_threshold=50
+Accuracy: 0.0534
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.8, contrast_threshold=60
+Accuracy: 0.1098
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.8, contrast_threshold=70
+Accuracy: 0.2037
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.85, contrast_threshold=30
+Accuracy: 0.3804
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.85, contrast_threshold=40
+Accuracy: 0.3804
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.85, contrast_threshold=50
+Accuracy: 0.4192
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.85, contrast_threshold=60
+Accuracy: 0.4912
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.85, contrast_threshold=70
+Accuracy: 0.5826
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.9, contrast_threshold=30
+Accuracy: 0.9105
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.9, contrast_threshold=40
+Accuracy: 0.9105
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.9, contrast_threshold=50
+Accuracy: 0.9148
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.9, contrast_threshold=60
+Accuracy: 0.9204
+
+Parameters: size_filter=35, offset=1, correlation_threshold=0.9, contrast_threshold=70
+Accuracy: 0.9245
 
