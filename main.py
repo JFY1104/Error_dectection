@@ -206,9 +206,9 @@ def main():
 if __name__ == "__main__":
     # main() 找最佳參數的function
 
-    input_image_path = "test_img//image1.png"  # 初始圖片 
-    ground_truth_path = "test_img//image1_groundtruth.png"  # 結果圖
-    output_image_path = "test_img//image1_result.png" # 輸出圖片
+    input_image_path = "test_img//image2.png"  # 初始圖片 
+    ground_truth_path = "test_img//image2_groundtruth.png"  # 結果圖
+    output_image_path = "test_img//image2_result.png" # 輸出圖片
     # Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=60 最優解
     process_image(
     input_image_path,
