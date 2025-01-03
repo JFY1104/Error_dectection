@@ -3,6 +3,36 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 from skimage.feature.texture import graycomatrix, graycoprops
 from joblib import Parallel, delayed
+import matplotlib.pyplot as plt
+
+
+def display_images(input_image_path, output_image_path, ground_truth_path):
+    input_image = cv2.imread(input_image_path, cv2.IMREAD_GRAYSCALE)
+    output_image = cv2.imread(output_image_path, cv2.IMREAD_GRAYSCALE)
+    ground_truth_image = cv2.imread(ground_truth_path, cv2.IMREAD_GRAYSCALE)
+
+    if input_image is None or output_image is None or ground_truth_image is None:
+        print("Error: Unable to read one or more images.")
+        return
+
+    plt.figure(figsize=(15, 5))
+
+    plt.subplot(1, 3, 1)
+    plt.imshow(input_image, cmap="gray")
+    plt.title("Input Image")
+    plt.axis("off")
+
+    plt.subplot(1, 3, 2)
+    plt.imshow(output_image, cmap="gray")
+    plt.title("Output Image")
+    plt.axis("off")
+
+    plt.subplot(1, 3, 3)
+    plt.imshow(ground_truth_image, cmap="gray")
+    plt.title("Ground Truth Image")
+    plt.axis("off")
+
+    plt.show()
 
 
 def calculate_confusion_matrix(image1_path, image2_path):
@@ -43,6 +73,7 @@ def calculate_confusion_matrix(image1_path, image2_path):
 
 
 def process_block(gray_image, size_filter, offset, i, j):
+    """ 計算灰度共生矩陣 """
     f = gray_image[i : i + size_filter, j : j + size_filter]
     result = graycomatrix(f, [1], [0])
     contrast = float(graycoprops(result, "contrast"))
@@ -97,10 +128,10 @@ def process_image(
         co_correlation[int(i / offset), int(j / offset)] = correlation
         contrast_values.append(contrast)
 
-    # 計算對比度的分佈概率
+
     contrast_values = np.array(contrast_values)
 
-    # 創建一個全白的影像
+    # 創建一個全白影像
     binary_image = np.ones_like(enhanced_image) * 255
 
     # 將異常點變成黑色
@@ -115,21 +146,21 @@ def process_image(
                     j * offset : j * offset + size_filter,
                 ] = 0
 
-    # 儲存處理後的影像
+    # 儲存
     cv2.imwrite(output_path, binary_image)
     print(f"Processed image saved to {output_path}")
 
 
 def main():
+    """ 用for迴圈遍歷參數找最優解 """
     input_image_path = "test_img//image1.png"  # 請替換為您的影像路徑
     ground_truth_path = "test_img//image1_groundtruth.png"  # 請替換為您的影像路徑
-
-    size_filter_values = [20, 25, 30, 35, 40]
+    size_filter_values = [ 20, 25, 30, 35, 40]
     offset_values = [1, 2, 3]
     correlation_threshold_values = [0.75, 0.8, 0.85, 0.9]
     contrast_threshold_values = [30, 40, 50, 60, 70]
 
-    with open("results.txt", "w") as file:
+    with open("results2.txt", "w") as file:
 
         file.flush()
         for size_filter in size_filter_values:
@@ -173,4 +204,23 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main() 找最佳參數的function
+
+    input_image_path = "test_img//image1.png"  # 初始圖片 
+    ground_truth_path = "test_img//image1_groundtruth.png"  # 結果圖
+    output_image_path = "test_img//image1_result.png" # 輸出圖片
+    # Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=60 最優解
+    process_image(
+    input_image_path,
+    output_image_path,
+    size_filter=20,
+    offset=3,
+    correlation_threshold=0.9,
+    contrast_threshold=60,
+    )
+    cm, accuracy = calculate_confusion_matrix(output_image_path, ground_truth_path)
+    if cm is not None and accuracy is not None:
+        print(f"Confusion Matrix:\n{cm}")
+        print(f"Accuracy: {accuracy:.4f}")
+    display_images(input_image_path, output_image_path, ground_truth_path)
+    
