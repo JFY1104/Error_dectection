@@ -204,12 +204,12 @@ def main():
 
 
 if __name__ == "__main__":
-    # main() 找最佳參數的function
+    # main() 找最佳參數的function 
 
-    input_image_path = "test_img//image2.png"  # 初始圖片 
-    ground_truth_path = "test_img//image2_groundtruth.png"  # 結果圖
-    output_image_path = "test_img//image2_result.png" # 輸出圖片
-    # Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=60 最優解
+    input_image_path = "test_img//image2.png"  # 初始圖片路徑
+    ground_truth_path = "test_img//image2_groundtruth.png"  # 結果(答案)圖路徑
+    output_image_path = "test_img//image2_result.png" # 輸出圖片的路徑 沒有則生成
+    # Parameters: size_filter=20, offset=3, correlation_threshold=0.9, contrast_threshold=60 推導出的最優解
     process_image(
     input_image_path,
     output_image_path,
